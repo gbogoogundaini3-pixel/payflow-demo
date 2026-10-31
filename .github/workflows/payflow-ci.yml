@@ -3,7 +3,9 @@ name: Payflow CI
 on:
   push:
     branches: [main, develop]
-
+  pull_request:
+    branches: [main]
+    
 jobs:
   test:
     runs-on: ubuntu-latest
