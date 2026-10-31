@@ -1,4 +1,6 @@
-const RATES = { GBP_USD: 1.35 };
+const RATES = {
+  GBP_USD: 1.25
+};
 
 function gbpToUsd(amount) {
   if (typeof amount !== 'number' || amount < 0) {
